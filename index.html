@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
     <a href="/">Tech Returner News</a>
 </header>
-<nav>
-    <a href="/news/">News</a> |
-    <a href="/opinion/">Opinion</a> |
-    <a href="/tech/">Tech</a> |
-    <a href="/sport/">Sport</a> |
-    <a href="/culture/">Culture</a> |
-    <a href="/about/">About</a> |
-    <a href="/lifestyle/">Lifestyle</a> |
+<nav class="flex-container">
+    <a href="/news/">News</a>
+    <a href="/opinion/">Opinion</a>
+    <a href="/tech/">Tech</a>
+    <a href="/sport/">Sport</a>
+    <a href="/culture/">Culture</a>
+    <a href="/about/">About</a>
+    <a href="/lifestyle/">Lifestyle</a>
     <a href="/jobs/">Jobs</a>
 </nav>
-<aside>
+<aside class="flex-container">
     <h2>Preferences</h2>
     <p>We aim to make this site accessible to a wide audience and to ensure a great experience for all users by
         conforming to <a href="https://www.w3.org/">World Wide Web Consortium</a> accessibility guidelines (W3C's WCAG).
@@ -28,7 +29,7 @@
     <label><input type="checkbox">Allow flashing elements</label>
     <p>Untick this to disable flashing and moving elements.</p>
 </aside>
-<article>
+<article class="flex-container">
     <h1>Accessibility Features: Easy Wins</h1>
     <p>Handy tips on how to create accessible websites for everyone</p>
     <a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a>
@@ -103,13 +104,13 @@
     </section>
 </article>
 <footer>
-    <nav>
-        <a href="/news/">News</a> |
-        <a href="/opinion/">Opinion</a> |
-        <a href="/sport/">Sport</a>|
-        <a href="/culture/">Culture</a> |
-        <a href="/tech/">Tech</a> |
-        © 2021 Tech Returners News
+    <nav class="flex-container">
+        <a href="/news/">News</a>
+        <a href="/opinion/">Opinion</a>
+        <a href="/sport/">Sport</a>
+        <a href="/culture/">Culture</a>
+        <a href="/tech/">Tech</a>
+        <span>© 2021 Tech Returners News</span>
     </nav>
 </footer>
 </body>

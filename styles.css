@@ -1,0 +1,47 @@
+body {
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    overflow: hidden;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav span {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+article {
+    flex-direction: column;
+    padding: 20px;
+}
+
+aside {
+    flex-direction: column;
+    background-color: lightgrey;
+    padding: 20px;
+    border-style: solid;
+}
